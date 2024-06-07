@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'HomeViewComponent'
+  name: 'HomeViewComponent' // Make sure the name matches the name used in HomeView.vue
 }
 </script>
 
