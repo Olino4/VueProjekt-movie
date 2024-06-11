@@ -4,7 +4,7 @@
     <!-- Your component content here -->
   </div>
 </template>
-
+<!-- 
 <script>
 export default {
   name: 'HomeViewComponent' // Make sure the name matches the name used in HomeView.vue
@@ -16,4 +16,4 @@ export default {
   display: flex;
   /* Add your styles here */
 }
-</style>
+</style> -->
