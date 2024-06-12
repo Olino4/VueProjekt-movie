@@ -1,16 +1,22 @@
+  <!-- <script setup>import FilmComponent from '../views/FilmComponent.vue'</script> -->
+
 <template>
-  <div class="home">
-    <p>zase to nechce loadovat</p>
+  <div class="max-w-[1248px]">
+    <div class="max-w-[1248px] flex gap-6">
+      <div class="w-[calc((100% / 4) - 72px / 4)]">
+        <FilmComponent />
+      </div>
+    </div>
   </div>
 </template>
 
-<!-- <script>
-  
+<script>
+  import FilmComponent from '../components/FilmComponent.vue';
 
   export default {
-    name: 'HomeViewComponent',
-
+    name: "app",
     components: {
+      FilmComponent,
     },
-  }
-</script> -->
+  };
+</script>
