@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@vue/cli-service": "^5.0.8",
+    "papaparse": "^5.4.1",
     "vue": "^3.4.21",
     "vue-router": "^4.0.3"
   },
