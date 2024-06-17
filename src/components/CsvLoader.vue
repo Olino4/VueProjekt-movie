@@ -18,7 +18,7 @@
   </div>
 </template>
 
-<script>
+<!-- <script>
 import Papa from 'papaparse';
 
 export default {
@@ -49,4 +49,4 @@ export default {
     }
   }
 };
-</script>
+</script> -->

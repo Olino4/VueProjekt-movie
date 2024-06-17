@@ -12,6 +12,8 @@
 
 <script>
   import CsvLoader from './components/CsvLoader.vue';
+  import Papa from 'papaparse';
+  
 
   export default {
     name: 'App',
