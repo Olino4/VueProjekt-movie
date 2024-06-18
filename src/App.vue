@@ -2,7 +2,7 @@
   import { ref } from 'vue'
 </script>
 
-<template>
+<template>more
   <nav class="bg-neutral-400">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">All Films</router-link>
