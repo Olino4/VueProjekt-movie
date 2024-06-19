@@ -1,6 +1,6 @@
 <template>
   <div class="flex gap-6">
-    <div class="w-[calc((100% / 4) - 72px / 4)]">
+    <div class="w-[calc((100%/4)-72px/4)]">
       <FilmComponent />
     </div>
   </div>

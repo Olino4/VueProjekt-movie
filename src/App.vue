@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <nav>
+  <nav class="bg-neutral-400">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">All Films</router-link>
   </nav>  
@@ -11,7 +11,14 @@
 </template>
 
 <script>
+  import CsvLoader from './components/CsvLoader.vue';
+  import Papa from 'papaparse';
+  
+
   export default {
     name: 'App',
+    components: {
+      CsvLoader
+    }
   };
 </script>
