@@ -1,6 +1,6 @@
 <template>
-  <div class="flex gap-6">
-    <div class="w-[calc((100%/4)-72px/4)]">
+  <div class="flex-wrap gap-6 bg-[url('../films_bg.png')]">
+    <div class="flex-wrap">
       <FilmComponent />
     </div>
   </div>
