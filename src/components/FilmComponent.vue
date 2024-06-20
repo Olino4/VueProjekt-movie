@@ -2,7 +2,6 @@
   <div class="gap-6 flex flex-wrap" v-if="csvData.length">
     <div  class="gap-4 w-[calc((100%/4)-72px/4)]" v-for="(row, index) in csvData" :key="index">
       <div class="flex-row gap-2">
-        
         <div class="flex-row gap-2">
           <img :src="row.url">
           <h2>{{ row.title }}</h2>
