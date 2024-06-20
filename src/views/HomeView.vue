@@ -1,6 +1,7 @@
 <template>
-  <div class="flex-wrap gap-6 bg-[url('../films_bg.png')]">
+  <div>
     <div class="flex-wrap">
+      <input type="text" class="w-full mb-6 text-[#121212] p-3 bg-white rounded-[12px]">
       <FilmComponent />
     </div>
   </div>

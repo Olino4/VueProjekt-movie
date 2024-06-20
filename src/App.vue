@@ -1,11 +1,9 @@
 <script setup>
   import { ref } from 'vue'
 </script>
-<div class="h-[10px] w-[100px]">
 
-</div>
-<template class="bg-[url('/src/assets/films_bg.png')]">
-  <nav>
+<template class="bg-[url('../assets/films_bg.png')]">
+  <nav class="w-fit p-3 m-auto bg-white rounded-[12px] mb-6">
     <router-link to="/">Home</router-link> |
     <router-link to="/singlefilm">All Films</router-link>
   </nav>
